@@ -1,0 +1,82 @@
+#tg_base{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+/* Cotainer for tooltip contents */
+#tip_container{
+  display: none;
+}
+
+/* Style of expose overlay */
+.tg_step_bg{
+  position: absolute;
+  z-index: 99999;
+  display: none;
+}
+
+/* Highlite area styles */
+#tg_styler{
+  position: absolute;
+  z-index: 100000;
+  margin: -5px 0 0 -5px;
+  display: none;
+}
+
+#tg_wrapper_cell{
+  float: left;
+}
+
+/* Tooltip Wrapper */
+#tg_wrapper{
+  position: absolute;
+  z-index: 100010;
+  vertical-align: middle;
+  display: none;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+/* Some other, not required styles */
+#tg_wrapper_cell > div {
+  padding: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#tg_wrapper_cell span.arrow{
+  display: none;
+  position: absolute;
+}
+
+.tg-nav {
+  float: left;
+  width: 96%;
+  display: block;
+}
+
+.tg-nav a{
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+#tg_wrapper h1{
+  font-size: 32px;
+  margin-top: 0;
+}
+
+#tg_wrapper p{
+  font-size: 13px;
+}

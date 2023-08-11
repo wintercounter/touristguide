@@ -1,0 +1,140 @@
+/* Highlite Area */
+#tg_styler{
+  border: 5px solid #2f5388;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+/* Style of expose overlay */
+.tg_step_bg{
+  background: rgba(255,255,255,0.8);
+  position: absolute;
+  z-index: 99999;
+  display: none;
+}
+
+/* Tooltip Wrapper */
+#tg_wrapper{
+  background: #fff;
+  border: 5px solid #2f5388;
+  box-shadow: 0 0 10px #000;
+}
+
+#tg_wrapper_cell span.arrow{
+  display: block;
+}
+
+#tg_wrapper.bottom span.arrow{
+  top: -29px;
+  left: 50%;
+  margin-left: -29px;
+  width: 58px;
+  height: 29px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat -13px 0;
+}
+
+#tg_wrapper.top span.arrow{
+  bottom: -28px;
+  left: 50%;
+  margin-left: -29px;
+  width: 58px;
+  height: 29px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat -13px -100px;
+}
+
+#tg_wrapper.left span.arrow{
+  top: 50%;
+  right: -28px;
+  margin-top: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat -58px -36px;
+}
+
+#tg_wrapper.right span.arrow{
+  top: 50%;
+  left: -27px;
+  margin-top: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat 0 -36px;
+}
+
+#tg_wrapper.topLeft span.arrow{
+  top: 29px;
+  right: -28px;
+  margin-top: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat -58px -36px;
+}
+
+#tg_wrapper.topRight span.arrow{
+  top: 29px;
+  left: -27px;
+  margin-top: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat 0 -36px;
+}
+
+#tg_wrapper.bottomLeft span.arrow{
+  bottom: 29px;
+  right: -28px;
+  margin-bottom: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat -58px -36px;
+}
+
+#tg_wrapper.bottomRight span.arrow{
+  bottom: 29px;
+  left: -27px;
+  margin-bottom: -29px;
+  width: 29px;
+  height: 58px;
+  background: transparent url(../images/simple_blue_arrows.png) no-repeat 0 -36px;
+}
+
+.tg-nav a{
+  color: #fff;
+  opacity: 0.9;
+}
+
+.tg-nav a:hover, .tg-nav a:active{
+  opacity: 1;
+}
+
+.tg-nav a:active{
+  top: 2px;
+}
+
+.tg-nav a#tg-nav-next{
+  background: #2f5388;
+  border: 1px solid #182f50;
+  text-shadow: -1px -1px #182f50;
+  box-shadow: 0 0 0 1px #537ab3 inset;
+}
+
+.tg-nav a#tg-nav-prev{
+  background: #c95e1e;
+  border: 1px solid #9b4d1e;
+  text-shadow: -1px -1px #9b4d1e;
+  box-shadow: 0 0 0 1px #d99165 inset;
+}
+
+.tg-nav a#tg-nav-end{
+  margin-right: 10px;
+  float: right;
+  background: #e62b17;
+  border: 1px solid #a62315;
+  text-shadow: -1px -1px #a62315;
+  box-shadow: 0 0 0 1px #d86e63 inset;
+}
+
+#tg_wrapper h1{
+  color: #666;
+}
+
+#tg_wrapper p{
+  color: #333;
+}
